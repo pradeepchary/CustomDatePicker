@@ -1,0 +1,19 @@
+<!--
+* 
+* @ Name    :   customDatePicker
+* @ Purpose :   HTML Input of type Date. Auto aligns the entered value in Date format
+* @ Author  :   Pradeep Chary
+*
+*   Date            |  Developer Name              |  Version      |  Changes
+* ======================================================================================================
+*   21-06-2022      |  pradeep.chary@absyz.com     |  1.0          |  Initial Version
+*
+-->
+<template>
+    <div class="slds-form-element">
+        <label class="slds-form-element__label" for="date-input-id-default">{strLabel}</label>
+        <div class="slds-form-element__control">
+            <input type="date" id="date-input-id-default" name="datepicker" class="slds-input" onblur={handleOnBlur} />
+        </div>
+    </div>
+</template>
